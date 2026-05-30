@@ -1,8 +1,8 @@
 [package]
-name = "my-app"
+name = "my-progress"
 version = "0.1.0"
 edition = "2024"
-description = "My app Rust implementation."
+description = "CLI tool for tracking GJJ class attendance and forecasting milestone completions."
 license = "MIT"
 authors = ["Data Workspace Template"]
 
