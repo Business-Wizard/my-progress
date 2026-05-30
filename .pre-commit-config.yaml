@@ -51,6 +51,13 @@ repos:
         language: system
   - repo: local
     hooks:
+      - id: cargo-test
+        name: cargo-test
+        language: system
+        entry: cargo test
+        args: ["--all-features", "--workspace", "--"]
+        pass_filenames: false
+        always_run: true
       - id: commit-msg-length
         name: commit-msg-length
         stages: [commit-msg]
