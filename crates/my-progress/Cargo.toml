@@ -9,7 +9,6 @@ authors = ["Data Workspace Template"]
 [dependencies]
 anyhow = "1.0"
 thiserror = "1.0"
-time = { version = "0.3.47", features = ["formatting", "parsing"] }
 
 [lints]
 workspace = true
